@@ -2,11 +2,14 @@ package com.zipcodewilmington.phonebook;
 
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Created by leon on 1/23/18.
  */
 public class PhoneBook {
+    TreeMap<String, Integer> directory;
+
     public PhoneBook(Map<String, List<String>> map) {
     }
 
